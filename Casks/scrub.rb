@@ -8,7 +8,7 @@ cask "scrub" do
   desc "Menu-bar cleaning mode that locks the keyboard/trackpad and dims the screen"
   homepage "https://github.com/NuttapongPun/scrub"
 
-  depends_on macos: :ventura
+  depends_on macos: ">= :big_sur"
 
   app "Scrub.app"
 
