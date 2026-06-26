@@ -1,6 +1,6 @@
 cask "scrub" do
-  version "1.0.0"
-  sha256 "66a2a54dec7f878a8a17526bfe8e13ef9aab66f031901ed09fb8a8ccf912e5d0"
+  version "1.0.1"
+  sha256 "a460482a18c719e3d4385a38942a51c8e50503ada53b01d0094ef53062df316d"
 
   url "https://github.com/NuttapongPun/scrub/releases/download/v#{version}/Scrub-v#{version}.zip",
       verified: "github.com/NuttapongPun/scrub/"
