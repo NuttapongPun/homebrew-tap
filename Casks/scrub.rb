@@ -18,9 +18,9 @@ cask "scrub" do
   ]
 
   caveats <<~EOS
-    Scrub is not notarized yet. If macOS refuses to open it, either reinstall with
-      brew install --cask --no-quarantine NuttapongPun/tap/scrub
-    or right-click Scrub.app in /Applications and choose Open once.
+    Scrub is not notarized yet. The first time macOS blocks it, right-click
+    Scrub.app in /Applications and choose Open once (or allow it under
+    System Settings -> Privacy & Security).
 
     On first launch, grant Scrub Accessibility permission so it can lock input.
   EOS
