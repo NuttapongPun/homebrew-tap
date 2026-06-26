@@ -7,12 +7,13 @@ wipe down the machine.
 ## Install
 
 ```sh
-brew install --cask --no-quarantine NuttapongPun/tap/scrub
+brew install --cask NuttapongPun/tap/scrub
 ```
 
-Scrub is currently **unsigned** (no Developer ID notarization yet), so `--no-quarantine` skips
-Gatekeeper's first-launch warning. Without it you'd have to right-click **Scrub.app → Open**
-once. On first launch, grant **Accessibility** permission so Scrub can lock input.
+Scrub is currently **unsigned** (no Developer ID notarization yet), so the first time macOS
+blocks it you'll need to right-click **Scrub.app → Open** once (or allow it under **System
+Settings → Privacy & Security**). On first launch, grant **Accessibility** permission so Scrub
+can lock input.
 
 Upgrade later with `brew upgrade --cask scrub`.
 
